@@ -23,5 +23,6 @@ for i in range(len(fx_rates)):
     else:
         break
 
+f = df.apply(lambda x:1/x) # Inversing columns for conversion - XXX/GBP
 
 
